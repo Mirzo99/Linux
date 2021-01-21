@@ -41,5 +41,5 @@ mkdir /mnt/supernewdisk
 mount /dev/grp1/lvl1 /mnt/supernewdisk/
 
 mkdir /mnt/share
-mount.cifs 192.168.1.12:/home/nikita/Documents/share /mnt/share/ -o v3
-echo "192.168.1.12:/home/nikita/Documents/share /mnt/share nfs noexec 0 0" >> /etc/fstab
+mount.cifs 192.168.1.12:/home/mirzo/Documents/share /mnt/share/ -o v3
+echo "192.168.1.12:/home/mirzo/Documents/share /mnt/share nfs noexec 0 0" >> /etc/fstab
